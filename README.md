@@ -37,18 +37,22 @@ Copier
 ```bash
 git clone https://github.com/<ton-pseudo>/monapp-starter.git
 cd monapp-starter
+```
 2. Supprimer le lien Git (si tu veux repartir de zéro)
-bash
+```bash
 Copier
 rm -rf .git
+```
 3. Installer les dépendances
-bash
+```bash
 Copier
 npm install
+```
 4. Lancer le serveur de développement
-bash
+```bash
 Copier
 npm run dev
+```
 👉 Ouvre http://localhost:5173
 
 📋 Personnalisation
