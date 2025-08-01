@@ -1,12 +1,69 @@
-# React + Vite
+# 🚀 React + Tailwind + Vite Starter
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Un starter minimaliste, rapide et propre pour lancer n'importe quel projet front-end en **React 18**, **Tailwind CSS**, et **Vite** ⚡
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🧰 Technologies utilisées
 
-## Expanding the ESLint configuration
+- ⚛️ [React 18](https://reactjs.org/)
+- 🎨 [Tailwind CSS 3](https://tailwindcss.com/)
+- ⚡ [Vite](https://vitejs.dev/) pour un bundling ultra-rapide
+- 🛠️ [PostCSS](https://postcss.org/) + [Autoprefixer](https://github.com/postcss/autoprefixer)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📦 Structure du projet
+
+monapp/
+├── public/ # Fichiers statiques
+├── src/ # Composants React + fichiers CSS
+│ ├── App.jsx
+│ ├── main.jsx
+│ └── index.css # Fichier Tailwind
+├── tailwind.config.js # Config Tailwind
+├── postcss.config.js # Config PostCSS
+├── index.html # Entrée Vite
+└── package.json
+
+yaml
+Copier
+
+---
+
+## ▶️ Démarrer le projet
+
+### 1. Cloner ce repo
+```bash
+git clone https://github.com/<ton-pseudo>/monapp-starter.git
+cd monapp-starter
+2. Supprimer le lien Git (si tu veux repartir de zéro)
+bash
+Copier
+rm -rf .git
+3. Installer les dépendances
+bash
+Copier
+npm install
+4. Lancer le serveur de développement
+bash
+Copier
+npm run dev
+👉 Ouvre http://localhost:5173
+
+📋 Personnalisation
+Ajouter des plugins Tailwind : dans tailwind.config.js
+
+Créer des composants : dans src/
+
+Ajouter des routes (option) : avec React Router DOM
+
+❤️ Crédits
+Ce starter est maintenu par Baptiste (aka Kacktucz)
+Utilisez-le librement, forkez-le, contribuez, partagez !
+
+🧙‍♂️ Pourquoi ce starter ?
+Pour ne plus jamais perdre 2h à réinstaller Tailwind, React, et configurer Vite correctement 💡
+
+yaml
+Copier
