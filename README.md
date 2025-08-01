@@ -15,18 +15,7 @@ Un starter minimaliste, rapide et propre pour lancer n'importe quel projet front
 
 ## 📦 Structure du projet
 
-monapp/
-├── public/ # Fichiers statiques
-├── src/ # Composants React + fichiers CSS
-│ ├── App.jsx
-│ ├── App.css
-│ ├── main.jsx
-│ └── index.css # Fichier Tailwind
-├── tailwind.config.js # Config Tailwind
-├── vite.config.js # Config Vite
-├── postcss.config.js # Config PostCSS
-├── index.html # Entrée Vite
-└── package.json
+<pre><code>```bash monapp/ ├── public/ # Fichiers statiques ├── src/ # Composants React + fichiers CSS │ ├── App.jsx │ ├── App.css │ ├── main.jsx │ └── index.css # Fichier Tailwind ├── tailwind.config.js # Config Tailwind ├── vite.config.js # Config Vite ├── postcss.config.js # Config PostCSS ├── index.html # Entrée Vite └── package.json ```</code></pre>
 ---
 
 ## ▶️ Démarrer le projet
